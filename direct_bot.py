@@ -2,12 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time, random
 
-my_username = '_alishsharma'
-my_password = 'alish17'
+my_username = 'Your Instagram username'
+my_password = 'Your Instagram password'
 
-usernames = ['yumnaa.mahmood']
+usernames = ['Add the usernames you wish to send messages to']
 
-messages = ["ur a dumbass"]
+messages = ["Add the messages here"]
 between_messages = 2000
 
 browser = webdriver.Chrome('chromedriver')
